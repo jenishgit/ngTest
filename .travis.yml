@@ -16,7 +16,7 @@ notifications:
 deploy:
   provider: pages
   skip_cleanup: false
-  github_token: $GITHUB_TOKEN
+  github_token: $GITHUB_API_KEY
   local_dir: dist/ngTest
   on:
     branch: master
